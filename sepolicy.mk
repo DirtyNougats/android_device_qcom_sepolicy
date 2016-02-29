@@ -8,4 +8,6 @@ BOARD_SEPOLICY_DIRS := \
        $(LOCAL_PATH)/test \
        $(LOCAL_PATH)/$(TARGET_BOARD_PLATFORM)
 
+-include vendor/du/sepolicy/qcom/sepolicy.mk
+
 endif
